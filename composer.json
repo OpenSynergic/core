@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "opensynergic/hooks": "^0.1.1",
+        "opensynergic/hooks": "^0.1.2",
         "filament/filament": "^2.0",
         "filament/spatie-laravel-media-library-plugin": "^2.12",
         "bezhansalleh/filament-shield": "^1.1",
@@ -36,11 +36,7 @@
             "OpenSynergic\\Core\\Database\\Factories\\": "database/factories"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "OpenSynergic\\Core\\Tests\\": "tests"
-        }
-    },
+    "autoload-dev": [],
     "scripts": {
         "analyse": "vendor/bin/phpstan analyse",
         "test": "vendor/bin/pest",
